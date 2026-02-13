@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Icon Studio</title>
+
+<style>
+body{ 
+    background:#111;
+    color:#eee;
+    font-family:Arial;
+    width:450px;
+    padding:10px
+}
+
+.row{
+    display:flex;
+    gap:4px;
+    margin-top:6px
+}
+
+button{
+    padding:6px;
+    font-size:11px;
+    background:#222;
+    color:#fff;
+    border:1px solid #444;
+    cursor:pointer
+}
+
+button:hover{
+    background:#333
+}
+
+#vr{
+    font-size:0.6em;
+    opacity:0.7;
+    font-weight:normal;
+}
+
+#titl{
+    text-align:center;
+    text-shadow:0 0 20px #00ffff, 0 0 40px #00ffff;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow{
+    from { text-shadow:0 0 10px #00ffff; }
+    to { text-shadow:0 0 30px #00ffff, 0 0 60px #00ffff; }
+}
+
+h4{
+    text-align:center;
+    font-size:0.8em;
+    opacity:0.9;
+}
+
+#ops{
+    margin-top:8px
+}
+
+.badge-support{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:5px;
+}
+
+input[type="file"]{
+    background:#222;
+    color:#fff;
+    border:1px solid #444;
+    padding:6px;
+    width:435px;
+}
+
+#status{
+    margin-top:8px;
+    font-size:12px;
+    color:#6cf;
+}
+
+select{
+    background:#222;
+    color:#fff;
+    border:1px solid #444;
+    padding:6px;
+    width:100%;
+    font-size:11px;
+}
+
+/* preview */
+#preview{
+    display:block;
+    margin:10px auto;
+    width:100px;
+    height:100px;
+    background:#000;
+    border:1px solid #444;
+}
+</style>
+</head>
+
+<body>
+
+<div class="badge-support">
+<a href="https://ko-fi.com/ashraf07" target="_blank">
+<img src="https://ko-fi.com/img/githubbutton_sm.svg" style="height:20px">
+</a>
+</div>
+
+<h2 id="titl">
+XIcon Converter by Xpapillon
+<small id="vr"> v8.0</small>
+</h2>
+<h4>Advanced Image & SVG to ICO Converter with Multi-Size</h4>
+<hr>
+
+<input type="file" id="fileInput" accept="image/*">
+
+<canvas id="preview" width="100" height="100"></canvas>
+
+<div id="ops">
+
+<div class="row">
+<select id="format">
+<option value="png">Export PNG</option>
+<option value="ico-single">ICO (Single Size)</option>
+<option value="ico-multi">ICO (True Multi-Size)</option>
+<option value="favicon">Favicon Pack (ZIP)</option>
+</select>
+</div>
+
+<div class="row">
+<select id="sizeSelect">
+<option>16</option>
+<option>32</option>
+<option>48</option>
+<option>64</option>
+<option>128</option>
+<option>256</option>
+<option selected>100</option>
+<option>512</option>
+</select>
+</div>
+
+<div class="row">
+<label>Tolerance :</label>
+<input type="range" id="tol" min="25" max="100" value="30">
+<label>Edge Protect :</label>
+<input type="range" id="edge" min="0" max="50" value="20">
+</div>
+
+<div class="row">
+<button id="removeBgBtn">🔥 Smart Remove</button>
+<button id="downloadBtn">Generate</button>
+</div>
+
+</div>
+
+<div id="status"></div>
+
+<script src="popup.js"></script>
+<script src="jszip.min.js"></script>
+</body>
+</html>
