@@ -10,7 +10,7 @@
 
 ## 🚀 Features
 
--🔥 SmartEdge Background Removal (local detection – no API required)
+*🔥 SmartEdge Background Removal (local detection – no API required)
 
 - 🖼 PNG Export (custom size)
 
