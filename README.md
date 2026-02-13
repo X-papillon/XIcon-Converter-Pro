@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 Features
+## Features 🚀
 
 🔥 SmartEdge Background Removal (local detection – no API required)
 
