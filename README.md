@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/X-papillon/XIcon-Converter-Pro/refs/heads/main/XIcon-Converter/icons/128.png" width="50"/> XIcon-Converter-Pro
+# <img src="https://images2.imgbox.com/eb/8b/abpFSJrE_o.png" width="50"/> XIcon-Converter-Pro
 ### A powerful, fully offline Chrome Extension for converting images into PNG, ICO, and full Favicon Packs.
 
 ![Version](https://img.shields.io/badge/version-4.0-blue)
