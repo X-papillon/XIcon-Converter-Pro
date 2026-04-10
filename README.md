@@ -177,11 +177,11 @@ If you find this project useful:
 ## 📸 Screenshots
 
 <p>
-  <img src="https://thumbs2.imgbox.com/1c/b7/9LCALDEZ_t.jpg" width="400"/>
+  <img src="https://images2.imgbox.com/1c/b7/9LCALDEZ_o.jpg" width="400"/>
   <br/>
-  <img src="https://thumbs2.imgbox.com/ae/c6/3JAuptDd_t.jpg" width="400"/>
+  <img src="https://images2.imgbox.com/ae/c6/3JAuptDd_o.jpg" width="400"/>
   <br/>
- <img src="https://thumbs2.imgbox.com/53/18/RN2odUm3_t.png" width="400"/>
+ <img src="https://images2.imgbox.com/53/18/RN2odUm3_o.png" width="400"/>
 </p>
 
 ---
